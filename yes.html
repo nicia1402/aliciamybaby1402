@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alicia 💖</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #ffe6eb, #fff0f5);
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4d6d;
+}
+
+.slideshow {
+  position: relative;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.slideshow img {
+  width: 100%;
+  border-radius: 20px;
+  display: none;
+}
+
+.slideshow img.active {
+  display: block;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Alicia, this is for you 💖</h1>
+
+<div class="slideshow">
+  <img src="photos/pic1.jpg" class="active">
+  <img src="photos/pic2.jpg">
+  <img src="photos/pic3.jpg">
+  <img src="photos/pic4.jpg">
+</div>
+
+<p>
+Alicia, from the moment you came into my life, something shifted in the best possible way...
+</p>
+
+<p>
+i don’t even know where to begin because every time i try to explain how much you mean to me, it feels like my heart gets too full for the words to handle. you came into my life so unexpectedly, and now you’re such a huge part of my everyday world that it’s impossible to imagine things without you. you’re not just cute, you’re the kind of cute that shows in everything you do, in the way you talk, the way you laugh, the way you get excited over small things, and the way you care so deeply about the people around you. every time i see your name pop up on my screen, my mood instantly gets better, like nothing else matters in that moment except the fact that i get to talk to you. our conversations mean more to me than you probably realize, because they make me feel understood, accepted, and safe in a way that i don’t feel with many people. you have this gentle way of listening that makes me feel like my thoughts actually matter, like my feelings aren’t too much, like i don’t have to hide parts of myself just to be accepted. that kind of connection is rare, and i treasure it more than i can properly say. i love the little things about you, the things you might not even notice about yourself. i love your sense of humor, your randomness, your personality, your quirks, and the way you make ordinary moments feel special just by being there. i love how talking to you never feels forced, how the conversation flows naturally, how i can be my real self without worrying about being judged. you make me feel comfortable in a way that’s hard to describe, like i can just exist as i am and still be enough. you inspire me to be better without ever trying to change me, simply by being the kind, caring, genuine person that you are. you make me want to be more patient, more understanding, more honest, because you deserve the best version of me. even though we’re online, what i feel is real, and what we have is real. the distance doesn’t make it weaker, it just makes me appreciate you more. it makes every message, every call, every moment we share feel more meaningful, because i know we’re choosing each other despite the space between us. i catch myself thinking about you throughout the day, wondering how you’re doing, hoping you’re okay, smiling at memories of things we’ve talked about or joked about. you’ve become part of my routine, part of my thoughts, part of my heart in a way that feels so natural that it’s almost scary. you mean so much to me, and i hope you truly understand that. you’re not just someone i talk to, you’re someone i care about deeply, someone i respect, someone i value, someone i want to keep in my life for a long time. i want to be there for you on your good days and your bad days, to support you when things feel heavy, to celebrate you when things feel bright, to remind you of how amazing you are when you forget. you deserve love that is patient, gentle, loyal, and consistent, and i want to give you that as best as i can. when i say i care about you, i mean it in the most genuine way possible. i care about your happiness, your feelings, your dreams, your struggles, all of it. i care about the person you are and the person you’re becoming. i don’t just like the idea of you, i like you.. i love you to be hnest, exactly as you are, with all your layers and all your depth. you’re special to me in a way that’s hard to put into simple words, but i hope you can feel it in the way i talk to you, the way i treat you, and the way i show up for you.i really do want to be with you, not just for now, but for as long as we can make it work. i want to keep building something with you, keep growing together, keep learning each other, keep choosing each other every day. you’re the best in so many ways, and i feel incredibly lucky that out of everyone in the world, somehow i get to call you mine.
+</p>
+
+<p>
+You are the best, the cutest, the most precious person in my world, and I am endlessly grateful for you. 💖
+</p>
+
+</div>
+
+<script>
+let slides = document.querySelectorAll(".slideshow img");
+let index = 0;
+
+setInterval(() => {
+  slides[index].classList.remove("active");
+  index = (index + 1) % slides.length;
+  slides[index].classList.add("active");
+}, 3000);
+</script>
+
+</body>
+</html>
